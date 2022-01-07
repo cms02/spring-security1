@@ -8,6 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer{
 	
+	
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
 		MustacheViewResolver resolver = new MustacheViewResolver();	//Mustache 재설정
